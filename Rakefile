@@ -10,6 +10,7 @@ namespace :greeting do
 end
 
 namespace :db do 
+  desc 'requires environemnt'
   task :environment do
     require_relative './config/environment'
   end
